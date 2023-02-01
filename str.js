@@ -23,7 +23,13 @@ console.log(str.endsWith("lovely"))//false
 const str1 = "One day you will leave this world behind. So live a life you will remember";
 let first= str1.split('');//break in char...no space
 let second = str1.split('.')//break the sentence where it will find dot
-let third = str1.split('a')//giving space....break the sentence in word
+let third = str1.split(' ')//giving space....break the sentence in word
 console.log(first);
 console.log(second);
 console.log(third);
+// string slice
+let fourth = str1.slice(0,9);//output: starting index to ending index-1
+console.log(fourth);
+// string substring
+let fifth = str1.substring(0,str1.length);//output: starting index to ending index-1
+console.log(fifth);
