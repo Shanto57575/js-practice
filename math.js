@@ -33,9 +33,25 @@ console.log(new_chill);//will always return the above int
 const floor = 2.99999999;
 const new_floor = Math.floor(floor);
 console.log(new_floor);//will always return the below int
+// random function
+
+const random = Math.random(); // will throw a random value
+const random1 = Math.random()*100; // will throw a random value form 1 to 100
+console.log(random);
+console.log(random1);
+
+// Max & Min function
+
+const one = 70;
+const two = 80;
+const three = 90;
+
+console.log(Math.max(one,two,three));
+console.log(Math.min(one,two,three));
+
 
 /*
 
-              ----------------------------------------------------------------
+       ----------------------------------------------------------------
 
 */
