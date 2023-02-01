@@ -49,6 +49,12 @@ const three = 90;
 console.log(Math.max(one,two,three));
 console.log(Math.min(one,two,three));
 
+//////////////////////////////////////
+
+const bro1 = "shanto"
+const bro2 = "shakib";
+
+console.log(Math.max(bro1,bro2));//Nan........Not a number
 
 /*
 
