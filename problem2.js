@@ -10,5 +10,5 @@ function newArray(arr){
       else return newArr;
     }
 }
-let arr = [0,1,2,3,4,5,-9,8,-6,-5,12,13,15,-16,-13,-12,0];
+let arr = [0,1,2,3,4,5,-9,8,-6,-5,12,13,15,-16,-13,-12];
 console.log(newArray(arr));
